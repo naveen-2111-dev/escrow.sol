@@ -1,15 +1,12 @@
 # Escrow
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a Hardhat Ignition module that deploys that contract.
+this is a escrow contract, which is deployed on sonic blockchain
 
 Try running some of the following tasks:
 
 ```shell
-npx hardhat help
 npx hardhat test
 REPORT_GAS=true npx hardhat test
 npx hardhat node
-npx hardhat ignition deploy ./ignition/modules/Lock.js
+npm run deploy
 ```
-
-
